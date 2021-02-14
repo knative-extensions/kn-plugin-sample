@@ -28,7 +28,7 @@ import (
  */
 
 var rootCmd = &cobra.Command{
-	Use:   "kn-hello",
+	Use:   "kn-sample",
 	Short: "Sample kn plugin printing out a nice message",
 	Long:  `Longer description of this fantastic plugin that can go over several lines.`,
 }
