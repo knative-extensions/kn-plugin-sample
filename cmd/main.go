@@ -1,4 +1,4 @@
-// Copyright © 2020 The Knative Authors
+// Copyright © 2021 The Knative Authors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -18,30 +18,15 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/spf13/cobra"
-
-	"knative.dev/kn-plugin-sample/pkg/command"
+	"knative.dev/kn-plugin-sample/internal/root"
 )
 
-/**
- * Sample main which just prints out a friendly message
- */
-
-var rootCmd = &cobra.Command{
-	Use:   "kn-sample",
-	Short: "Sample kn plugin printing out a nice message",
-	Long:  `Longer description of this fantastic plugin that can go over several lines.`,
-}
-
-func init() {
-	rootCmd.AddCommand(command.NewPrintCommand())
-	rootCmd.AddCommand(command.NewVersionCommand())
-}
-
 func main() {
-	err := rootCmd.Execute()
+	err := root.NewRootCommand().Execute()
 	if err != nil {
-		fmt.Printf("ERROR: %v\n", err)
+		if err.Error() != "subcommand is required" {
+			fmt.Fprintln(os.Stderr, err)
+		}
 		os.Exit(1)
 	}
 }

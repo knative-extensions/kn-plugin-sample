@@ -6,10 +6,14 @@
 // See the short reference at for the main commands: http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/
 // Tip: Asciidoc authors often use to line-break after each sentence. That way, it's easier to move things around and to identify parts.
 
+
+// The project layout follows the recommendation of https://github.com/golang-standards/project-layout, except that we use a `hack/` directory instead of `scripts/` (a Knative convention)
+
+IMPORTANT: This repository should be used as a blueprint for creating your own https://github.com/knative/client[kn] plugins. See the link:BLUEPRINT.md[BLUEPRINT.md] for how to kickstart your plugin.
+
 == kn-sample
 
 // Add a summary description here. This description should fit in a single sentence.
-
 `kn sample` prints out a friendly message to the user.
 
 === Description
