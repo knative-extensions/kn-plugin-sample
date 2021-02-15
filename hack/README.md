@@ -1,6 +1,6 @@
 ## Hacky scripts
 
-This directory contains all the build and CI scripts that are used in building the plugin. They are centered around [knative/hack](https://github.com/knative/hack) which is included in the `vendor` directory by using a dummy go dependency in `tools.go` (and in `go.mod`).
+This directory contains all the build and CI scripts that are used in building the plugin. They are centered around [knative/hack](https://github.com/knative/hack) which is included in the `vendor` directory by using a placeholder go dependency in `tools.go` (and in `go.mod`).
 
 The only exception is the main `build.sh` which is an adapted clone of the Knative client [build.sh](https://github.com/knative/client/blob/master/hack/build.sh).
 
