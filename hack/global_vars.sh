@@ -25,4 +25,4 @@ SOURCE_DIRS="cmd pkg"
 MAIN_SOURCE_DIR="cmd"
 
 # Package which holds the version variables
-VERSION_PACKAGE="knative.dev/kn-plugin-sample/pkg/command"
+VERSION_PACKAGE="knative.dev/kn-plugin-sample/internal/command"
