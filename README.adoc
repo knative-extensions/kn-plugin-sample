@@ -11,6 +11,8 @@
 
 IMPORTANT: This repository should be used as a blueprint for creating your own https://github.com/knative/client[kn] plugins. See the link:BLUEPRINT.md[BLUEPRINT.md] for how to kickstart your plugin.
 
+yest another test. ignore ...
+
 == kn-sample
 
 // Add a summary description here. This description should fit in a single sentence.
