@@ -9,8 +9,7 @@ aliases:
   - julz
   - maximilien
   autoscaling-wg-leads:
-  - markusthoemmes
-  - vagababov
+  - julz
   client-wg-leads:
   - dsimansk
   - navidshaikh
@@ -21,10 +20,8 @@ aliases:
   - rhuss
   container-freezer-approvers:
   - julz
-  - markusthoemmes
   - psschwei
   control-protocol-approvers:
-  - devguyio
   - eric-sap
   - lionelvillard
   - matzew
@@ -34,9 +31,13 @@ aliases:
   - lberk
   - n3wscott
   docs-wg-leads:
-  - abrennan89
+  - csantanapr
+  - snneji
   docs-writers:
   - abrennan89
+  - csantanapr
+  - psschwei
+  - snneji
   eventing-autoscaler-keda-approvers:
   - zroubalik
   eventing-awssqs-approvers:
@@ -63,24 +64,23 @@ aliases:
   eventing-kafka-approvers:
   - aliok
   - davyodom
-  - devguyio
   - eric-sap
   - lberk
   - matzew
   - phamilton
+  - pierDipi
   - steven0711dong
   - travis-minke-sap
   eventing-kafka-broker-approvers:
+  - aliok
   - matzew
   - pierDipi
   eventing-kafka-mtsource-approvers:
   - steven0711dong
   eventing-kafka-wg-leads:
-  - devguyio
   - lionelvillard
   - travis-minke-sap
   eventing-kafka-writers:
-  - devguyio
   - lionelvillard
   - travis-minke-sap
   eventing-kogito-approvers:
@@ -88,26 +88,40 @@ aliases:
   - spolti
   - vaibhavjainwiz
   eventing-natss-approvers:
-  - devguyio
   - zhaojizhuang
   eventing-prometheus-approvers:
   - lberk
   - matzew
   eventing-rabbitmq-approvers:
-  - benmoss
-  - sbawaska
-  - vaikas
+  - chunyilyu
+  - gab-satchi
+  - gabo1208
+  - gvmw
+  - ikvmw
+  - salaboy
   - xtreme-sameer-vohra
   eventing-redis-approvers:
   - aavarghese
   - lionelvillard
   - matzew
   eventing-wg-leads:
-  - devguyio
   - lionelvillard
+  - pierDipi
   eventing-writers:
-  - devguyio
+  - aliok
   - lionelvillard
+  - matzew
+  - odacremolbap
+  - pierDipi
+  - vaikas
+  func-tastic-approvers:
+  - lance
+  - lkingland
+  - matejvasek
+  - nainaz
+  - omerbensaadon
+  - salaboy
+  - zroubalik
   homebrew-kn-plugins-approvers:
   - dsimansk
   - maximilien
@@ -128,6 +142,9 @@ aliases:
   - lance
   - lkingland
   - matejvasek
+  - nainaz
+  - omerbensaadon
+  - salaboy
   - zroubalik
   kn-plugin-migration-approvers:
   - maximilien
@@ -160,27 +177,28 @@ aliases:
   - nicolaferraro
   - rhuss
   knative-admin:
-  - benmoss
-  - bsnchan
+  - csantanapr
   - dprotaso
   - evankanderson
+  - ikvmw
+  - itsmurugappan
   - julz
+  - knative-automation
   - knative-prow-releaser-robot
   - knative-prow-robot
   - knative-prow-updater-robot
   - knative-test-reporter-robot
-  - markusthoemmes
-  - mbehrendt
+  - lance
+  - nader-ziada
   - pmorie
   - rhuss
-  - salaboy
   - thisisnotapril
   - vaikas
   knative-release-leads:
-  - benmoss
-  - julz
-  - salaboy
+  - ikvmw
+  - nader-ziada
   knative-robots:
+  - knative-automation
   - knative-prow-releaser-robot
   - knative-prow-robot
   - knative-prow-updater-robot
@@ -192,10 +210,11 @@ aliases:
   - ZhiminXiang
   - tcnghia
   net-contour-approvers:
+  - carlisia
   - dprotaso
   - tcnghia
   net-gateway-api-approvers:
-  - markusthoemmes
+  - carlisia
   - nak3
   - tcnghia
   net-http01-approvers:
@@ -204,11 +223,13 @@ aliases:
   - JRBANCEL
   - ZhiminXiang
   - nak3
+  - skonto
   - tcnghia
   - vagababov
   net-kourier-approvers:
   - davidor
   - jmprusi
+  - skonto
   - tcnghia
   networking-wg-leads:
   - ZhiminXiang
@@ -221,10 +242,14 @@ aliases:
   - upodroid
   productivity-wg-leads:
   - chizhg
-  - n3wscott
   productivity-writers:
+  - cardil
+  - chaodaiG
   - chizhg
-  - n3wscott
+  - coryrc
+  - kvmware
+  - psschwei
+  - upodroid
   security-wg-leads:
   - evankanderson
   - julz
@@ -234,14 +259,12 @@ aliases:
   serving-writers:
   - ZhiminXiang
   - dprotaso
-  - markusthoemmes
+  - julz
   - nak3
-  - vagababov
-  source-wg-leads:
-  - lionelvillard
   steering-committee:
-  - bsnchan
-  - mbehrendt
+  - csantanapr
+  - itsmurugappan
+  - lance
   - pmorie
   - thisisnotapril
   - vaikas
@@ -249,11 +272,10 @@ aliases:
   - dprotaso
   - evankanderson
   - julz
-  - markusthoemmes
   - rhuss
   ux-wg-leads:
   - csantanapr
-  - omerbensaadon
+  - snneji
   ux-writers:
   - csantanapr
-  - omerbensaadon
+  - snneji
