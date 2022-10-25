@@ -1,21 +1,21 @@
-# github.com/google/go-cmp v0.5.7
+# github.com/emicklei/go-restful v2.15.0+incompatible
+## explicit
+# github.com/google/go-cmp v0.5.9
 github.com/google/go-cmp/cmp
 github.com/google/go-cmp/cmp/internal/diff
 github.com/google/go-cmp/cmp/internal/flags
 github.com/google/go-cmp/cmp/internal/function
 github.com/google/go-cmp/cmp/internal/value
-# github.com/inconshreveable/mousetrap v1.0.0
+# github.com/inconshreveable/mousetrap v1.0.1
 github.com/inconshreveable/mousetrap
 # github.com/mitchellh/go-homedir v1.1.0
 github.com/mitchellh/go-homedir
-# github.com/pkg/errors v0.9.1
-github.com/pkg/errors
-# github.com/spf13/cobra v1.3.0
+# github.com/spf13/cobra v1.6.0
 ## explicit
 github.com/spf13/cobra
 # github.com/spf13/pflag v1.0.5
 github.com/spf13/pflag
-# gotest.tools/v3 v3.1.0
+# gotest.tools/v3 v3.3.0
 ## explicit
 gotest.tools/v3/assert
 gotest.tools/v3/assert/cmp
@@ -23,9 +23,9 @@ gotest.tools/v3/internal/assert
 gotest.tools/v3/internal/difflib
 gotest.tools/v3/internal/format
 gotest.tools/v3/internal/source
-# knative.dev/client v0.31.1-0.20220429114853-bcd18d39f472
+# knative.dev/client v0.34.1-0.20221024014916-4a545d07fb1f
 ## explicit
 knative.dev/client/pkg/kn/plugin
-# knative.dev/hack v0.0.0-20220427014036-5f473869d377
+# knative.dev/hack v0.0.0-20221024013916-9d2ae47c16b2
 ## explicit
 knative.dev/hack
