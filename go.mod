@@ -1,12 +1,12 @@
 module knative.dev/kn-plugin-sample
 
-go 1.22
+go 1.22.0
 
 require (
 	github.com/spf13/cobra v1.7.0
 	gotest.tools/v3 v3.3.0
-	knative.dev/client-pkg v0.0.0-20240808015000-22f598931483
-	knative.dev/hack v0.0.0-20240814130635-06f7aff93954
+	knative.dev/client-pkg v0.0.0-20241128014302-8b7d7e741608
+	knative.dev/hack v0.0.0-20241128013751-1978b3a02667
 )
 
 require (
