@@ -11,7 +11,7 @@ github.com/inconshreveable/mousetrap
 # github.com/mitchellh/go-homedir v1.1.0
 ## explicit
 github.com/mitchellh/go-homedir
-# github.com/spf13/cobra v1.7.0
+# github.com/spf13/cobra v1.8.1
 ## explicit; go 1.15
 github.com/spf13/cobra
 # github.com/spf13/pflag v1.0.5
@@ -25,9 +25,9 @@ gotest.tools/v3/internal/assert
 gotest.tools/v3/internal/difflib
 gotest.tools/v3/internal/format
 gotest.tools/v3/internal/source
-# knative.dev/client-pkg v0.0.0-20240808015000-22f598931483
-## explicit; go 1.22
+# knative.dev/client-pkg v0.0.0-20250219014434-98dd4c09798c
+## explicit; go 1.22.7
 knative.dev/client-pkg/pkg/plugin
-# knative.dev/hack v0.0.0-20240814130635-06f7aff93954
+# knative.dev/hack v0.0.0-20250331013814-c577ed9f7775
 ## explicit; go 1.21
 knative.dev/hack
