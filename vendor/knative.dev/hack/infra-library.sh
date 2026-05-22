@@ -21,7 +21,7 @@ source "$(dirname "${BASH_SOURCE[0]:-$0}")/library.sh"
 
 # Default Kubernetes version to use for GKE, if not overridden with
 # the `--cluster-version` parameter.
-readonly GKE_DEFAULT_CLUSTER_VERSION="1.28"
+readonly GKE_DEFAULT_CLUSTER_VERSION="1.34"
 
 # Dumps the k8s api server metrics. Spins up a proxy, waits a little bit and
 # dumps the metrics to ${ARTIFACTS}/k8s.metrics.txt
@@ -84,7 +84,8 @@ function dump_cluster_state() {
 # Create a test cluster and run the tests if provided.
 # Parameters: $1 - cluster provider name, e.g. gke
 #             $2 - custom flags supported by kntest
-#             $3 - test command to run after cluster is created
+#             $3 - extra gcloud flags (gke only)
+#             $4 - test command to run after cluster is created
 function create_test_cluster() {
   # Fail fast during setup.
   set -o errexit
@@ -96,7 +97,7 @@ function create_test_cluster() {
 
   case "$1" in
     gke) create_gke_test_cluster "$2" "$3" "$4" "${5:-}" ;;
-    kind) create_kind_test_cluster "$2" "$3" "${4:-}" ;;
+    kind) create_kind_test_cluster "$2" "${4:-}" ;;
     *) echo "unsupported provider: $1"; exit 1 ;;
   esac
 
