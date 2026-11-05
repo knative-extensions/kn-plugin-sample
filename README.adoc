@@ -13,11 +13,14 @@ IMPORTANT: This repository should be used as a blueprint for creating your own h
 
 == kn-sample
 
-=== End of life
+[IMPORTANT]
+====
+*End of life*
 
 This project is being retired and this repository will be archived. It will no longer receive maintenance or new releases. Existing source code and release assets will remain available.
 
 See https://github.com/knative/community/issues/1802[knative/community#1802] for details.
+====
 
 // Add a summary description here. This description should fit in a single sentence.
 `kn sample` prints out a friendly message to the user.
